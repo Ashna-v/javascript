@@ -21,6 +21,15 @@
             <option>palakkad</option>
             <option>wayanad</option>
         </select> <br /><br /><br />
+        <button onclick="fnclick()">click me</button>
+        <p id="para" onmouseup="fnup()" onmousedown="fndown()">Lorem ipsum dolor sit amet, consectetur ad
+            ipisicing elit. Voluptates atque suscipit quaerat rerum minus cupiditate voluptatum dolore. Dolori
+            bus, quidem perspiciatis. Quo ipsam co
+            rporis quia magnam aperiam doloremque aliquid dolorem ex?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, placeat
+             recusandae iure molestiae beatae ex quaerat numquam consequuntur tenetur dolores 
+            saepe, iste excepturi voluptatibus eius. Officiis nihil sit assumenda veniam.</p>
+
 
 
     </form>
@@ -41,6 +50,18 @@
             alert("selected the district")
 
         }
+        function fnclick() {
+        alert("hai hello")
+        }
+        function fnup() {
+        document.getElementById("para").style.color = "green";
+        }
+
+        function fndown() {
+        document.getElementById("para").style.color = "yellow";
+        }
+
+
     </script>
 
 
